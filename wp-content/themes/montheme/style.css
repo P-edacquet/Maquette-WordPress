@@ -1,0 +1,149 @@
+/*
+Theme Name: montheme
+*/
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    /* background: rgb(253, 255, 132); */
+}
+
+.container-fluid{
+    width: 100%;
+    margin: auto;
+    /* background: red; */
+    display: flex;
+    align-items: center;
+    /* justify-content: space-around; */
+}
+
+nav{
+    background: white;
+    /* height: 60px; */
+    padding: 10px;
+    display: flex;
+}
+
+.container{
+    width: 75%;
+    margin: auto;
+}
+
+
+.custom-logo-link {
+    margin-left: 10%;
+}
+
+/* MENU_DU_HAUT */
+
+
+
+
+.menu_du_haut {
+    /* background: black; */
+    margin-left: 10%;
+    margin-top: 60px;
+    width: 40%;
+    /* list-style: none; */ 
+    display: flex;
+    justify-content: space-around;
+}
+
+.menu_du_haut li {
+    list-style: none;
+}
+
+.menu_du_haut li a {
+    color : black;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.menu_du_haut li a:hover {
+    color: grey;
+}
+
+
+
+
+.uagb-post__title{
+    text-align: center;
+}
+
+/* .wp-block-image.is-resized {
+    margin: 0;
+} */
+
+.mainContainer{
+    margin: 200px;
+
+    background: white;
+}
+
+/* GROUPE 1 */
+
+
+
+#groupe-1 {
+    /* display: flex;
+    justify-content: center; */
+}
+
+
+.body-mainImage{
+    /* background: blue; */
+    padding: 10px;
+
+}
+
+
+/* AGENDA */
+
+
+
+
+.uagb-post-grid  {
+    padding: 5%;
+    /* padding-left: 5%;
+    padding-right: 5%; */
+}
+
+
+.uagb-post__inner-wrap{
+    background: grey;
+}
+
+
+/* PHOTOTEQUE */
+
+.row {
+    margin: 5%;
+    display: flex;
+    justify-content: space-between;
+}
+
+
+/*  FOOTER */
+
+
+
+.footer{
+
+}
+
+.footer-part1{
+    height: 100px;
+    background: rgb(26, 22, 43);
+    display: flex;
+    justify-content: space-around;
+}
+
+.footer-part1-p{
+    color: white;
+    font-family: bold;
+}
+
+.footer-part2{
+    height: 300px;
+    background: rgb(68, 68, 68);
+}
